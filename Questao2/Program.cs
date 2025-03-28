@@ -8,7 +8,7 @@ public class Program
         int year = 2013;
         int totalGoals = getTotalScoredGoals(teamName, year);
 
-        Console.WriteLine("Team "+ teamName +" scored "+ totalGoals.ToString() + " goals in "+ year);
+        Console.WriteLine("Team " + teamName + " scored " + totalGoals.ToString() + " goals in " + year);
 
         teamName = "Chelsea";
         year = 2014;
@@ -23,8 +23,7 @@ public class Program
 
     public static int getTotalScoredGoals(string team, int year)
     {
-        
+      
         return 0;
     }
-
 }

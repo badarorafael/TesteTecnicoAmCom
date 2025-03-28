@@ -7,6 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="ConsultaAPI.cs" />
+  </ItemGroup>
+
 
   <ItemGroup>
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />		
